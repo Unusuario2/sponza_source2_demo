@@ -1,0 +1,6 @@
+"settings"
+{
+	"minimum_encode_quality"		"3"
+	"maxres"		"4096"
+	"legacy_source1_inverted_normal"		"1"
+}
