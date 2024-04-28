@@ -1,0 +1,53 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_complex.vfx"
+
+	//---- PBR ----
+	F_METALNESS_TEXTURE 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/col_brickwall_01_basecolor.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureMetalness "materials/col_brickwall_01_metalness.png"
+	TextureRoughness "materials/col_brickwall_01_roughness.png"
+
+	//---- Normal Map ----
+	TextureNormal "materials/col_brickwall_01_normal.png"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0"
+	g_nTextureAddressModeV "0"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "brick"
+	}
+
+	UnusedVariables
+	{
+		"g_flMetalness" "0"
+	}
+
+
+	VariableState
+	{
+	}
+}
