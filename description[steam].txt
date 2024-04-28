@@ -1,0 +1,29 @@
+Welcome to your new fps destroyer. Sponza (2022) is a well-known [url=https://en.wikipedia.org/wiki/Demoscene]graphic demo[/url] where graphics engines are tested.
+[hr][/hr][h1]Features[/h1]
+[list]
+[*]Full set of PBR texures.
+[*]4K texures.
+[*]8K shadows.
+[*]More than 10 million polygons.
+[*][url=https://learnopengl.com/Guest-Articles/2021/CSM]Real time shadows (csm)[/url]
+[/list][hr][/hr][h1]Autors:[/h1][url=https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html]Intel Sample Library[/url]
+Frank Meinl.
+Katica Putica. 
+Cristiano Siqueria.
+Timothy Heath. 
+Justin Prazen.
+Sebastian Herholz.
+Bruce Cherniak.
+Anton Kaplanyan.
+[i][b]I did not make this scene, I only ported into source 2.[/b][/i]
+[hr][/hr][h1]Licence & extra info:[/h1]
+For personal use and educational use. Limited commercial use for marketing and print in educational, science papers, etc.
+Paper: [url=https://www.intel.com/content/www/us/en/newsroom/opinion/intel-graphics-step-up-research.html#gs.7kgqva]Link[/url]
+Mapcore: [url=https://www.mapcore.org/topic/29558-cs2-sponza]Thread link[/url]
+[b]PD:[/b] I wound make this a benchmark map, but because cs2 laks of [url=https://developer.valvesoftware.com/wiki/Point_viewcontrol][i][b]point_viewcontrol[/b][/i][/url] this is not possible. Blame valve not me.
+[hr][/hr][h1]Source files:[/h1]
+Those can be found and [url=https://www.intel.com/content/www/us/en/developer/topic-technology/graphics-research/samples.html]Intel Sample Library[/url].
+The actual port into source 2 engine it is in [url=https://github.com/Unusuario2/sponza_source2_demo]github[/url].
+[hr][/hr][h1]If you like this check my other work:[/h1]
+ https://steamcommunity.com/sharedfiles/filedetails/?id=3171719212
+ https://steamcommunity.com/sharedfiles/filedetails/?id=3162758029
