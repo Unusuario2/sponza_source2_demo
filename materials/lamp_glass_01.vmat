@@ -1,0 +1,59 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_glass.vfx"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Glass ----
+	g_flTranslucencyRemap "[0.000 1.000]"
+	GlassMaskColor "[1.000000 1.000000 1.000000 0.000000]"
+	GlassMaskTranslucency "[0.028000 0.028000 0.028000 0.000000]"
+	GlassMaskTransmission "materials/default/default_mask.tga"
+	GlassTintColor "materials/default/default_tint_color.tga"
+
+	//---- Normal ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Roughness ----
+	TextureRoughness "[0.000000 0.000000 0.000000 0.000000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0"
+	g_nTextureAddressModeV "0"
+
+	//---- Tint ----
+	g_flModelTintAmount "1.000"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "grass"
+	}
+
+
+	VariableState
+	{
+		"Fog"
+		{
+		}
+		"Glass"
+		{
+			"Mask" "0"
+			"Tint" "0"
+		}
+		"Normal"
+		{
+		}
+		"Roughness"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Tint"
+		{
+		}
+	}
+}
